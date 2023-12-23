@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PharmaConnect</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="index.html"><img src="Pclogo.jpg" class="logo" alt="logo" /></a>
+      <div>
+        <div class="nav-search">
+          <select class="search-select">
+            <option>All</option>
+          </select>
+          <input
+            placeholder="Search for Medicines,Prescriptions and Wellness"
+            class="search-input"
+          />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <ul id="navbar">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="Medicines.html">Medicines</a></li>
+          <li><a href="prescriptions.html">Upload Prescriptions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+          </li>
+          <a href="#" id="close"><i class="far fa-times-circle"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+    <section id="hero">
+      <h4>Your Trusted Online Pharmacy</h4>
+      <h2>Empowering Your Health</h2>
+      <h1>Your Wellness, Our Commitment</h1>
+      <p>
+        Our mission is to prioritize your well-being and make access to
+        medications easier than ever
+      </p>
+      <button>Shop Now</button>
+    </section>
+
+    <!-- <section id="feature" class="section-p1">
+      <div class="fe-box">
+        <img src="freeshipping.jpg" alt="" />
+        <h6>Free Shipping</h6>
+      </div>
+      <div class="fe-box">
+        <img src="img/feature/f1.png" alt="" />
+        <h6>Online Order</h6>
+      </div>
+      <div class="fe-box">
+        <img src="img/feature/f1.png" alt="" />
+        <h6>Save Money</h6>
+      </div>
+      <div class="fe-box">
+        <img src="img/feature/f1.png" alt="" />
+        <h6>Promotions</h6>
+      </div>
+      <div class="fe-box">
+        <img src="img/feature/f1.png" alt="" />
+        <h6>Happy Sell</h6>
+      </div>
+      <div class="fe-box">
+        <img src="img/feature/f1.png" alt="" />
+        <h6>24/7 Support</h6>
+      </div>
+    </section> -->
+
+    <section id="product1" class="section-p1">
+      <h2>Trending Products</h2>
+      <p>
+        Stay ahead in health trends with our lineup of popular and effective
+        pharmacy essentials.
+      </p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="Pediasure.jpeg" alt="" />
+          <div class="des">
+            <span></span>
+            <h5>PEDIASURE - 400gm VANILLA FLAVOR</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 1000</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="whey.jpeg" alt="" />
+          <div class="des">
+            <h5>100% Whey Gold Standard 1 lbs</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 11000</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="hair skin.jpeg" alt="" />
+          <div class="des">
+            <h5>Gummy Queen Hair, Nail & Skin - 30 Pieces</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 3000</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="walking stick.jpeg" alt="" />
+          <div class="des">
+            <h5>Flamingo Walking Stick - Tripod</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 2500</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="glucose.jpeg" alt="" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>On Call Extra Blood Glucose Monitoring System</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 8500</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="sunscreen.jpeg" alt="" />
+          <div class="des">
+            <h5>
+              Aqualogica Glow+ Dewy Lightweight & Hydrating Sunscreen Sunstick
+              with SPF 50+ & PA++++ - For Normal, Dry & Combination Skin of
+              Women & Men 20gm
+            </h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 1800</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="spot.jpeg" alt="" />
+          <div class="des">
+            <h5>
+              Aqualogica Glow+ Dewy Lightweight & Hydrating Sunscreen Sunstick
+              with SPF 50+ & PA++++ - For Normal, Dry & Combination Skin of
+              Women & Men 20gm
+            </h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 1000</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="fishoil.jpeg" alt="" />
+          <div class="des">
+            <h5>FISH OIL 1000mg OMEGA 3</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 800</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+      <h4>Special Limited-Time Offer!</h4>
+      <h2>🌟Up to <span> 70 % off !!</span>- Limited Time Only!🌟</h2>
+      <button class="normal">Explore More</button>
+    </section>
+    <section id="product1" class="section-p1">
+      <h2>Best Selling Products</h2>
+      <p>Explore our handpicked collection of top-selling pharmaceuticals, ensuring premium quality and effective healthcare solutions</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="mamaearth.jpeg" alt="" />
+          <div class="des">
+            <span></span>
+            <h5>MamaEarth FaceWash-100gm</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 1400</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="sugarfree.jpeg" alt="" />
+          <div class="des">
+            <span></span>
+            <h5>Sugar Free Gold 110 Piece 'Bottle</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 104</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="foamwash.jpeg" alt="" />
+          <div class="des">
+            <span></span>
+            <h5>Dr. Sheth's Mediglow Foaming Face Wash 100ml</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 1100</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="baby lotion.jpeg" alt="" />
+          <div class="des">
+            <span></span>
+            <h5>R for Rabbit Pure & Beyond Baby Lotion - Oatmeal 200ml</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 400</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="fatburner.jpeg" alt="" />
+          <div class="des">
+            <span></span>
+            <h5>Vegan Dairy Nepal Fat Burner - 60 tablets</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 200</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="afterbite.jpeg" alt="" />
+          <div class="des">
+            <span></span>
+            <h5>Mamaearth After Bite Roll On, 40ml</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 1000</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="nature.jpeg" alt="" />
+          <div class="des">
+            <span></span>
+            <h5>Vedic Nature The Ultimate Radiance Face Wash 100ml</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 1200</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="snail.png" alt="" />
+          <div class="des">
+            <span></span>
+            <h5>COSRX Advanced Snail 96 Mucin Power Essence 100ml</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Rs 500</h4>
+          </div>
+          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </section>
+     <div class="reviews">
+      <h1>Customers Testimonials</h1>
+      <div class="container">
+        <div class="indicator">
+          <span class="btn active"></span>
+          <span class="btn"></span>
+          <span class="btn"></span>
+          
+        </div>
+        <div class="testimonials">
+          <div class="slide-row" id="slide">
+            <div class="slide-col">
+              <div class="user-text">
+                <p>
+                  "PharmaConnect has been a lifesaver for me. The convenience of
+                  ordering medications online and having them delivered to my
+                  doorstep is unbeatable. Their service is prompt, and the
+                  quality is top-notch."
+                </p>
+                <h3>Anurag</h3>
+                <p>Web-Developer</p>
+              </div>
+              <div class="user-img">
+                <img src="./img/Testimonials/Anurag.jpg" />
+              </div>
+            </div>
+            <div class="slide-col">
+              <div class="user-text">
+                <p>
+                  I'm impressed with the variety of wellness products available
+                  on PharmaConnect. It's not just a pharmacy; it's a
+                  one-stop-shop for all my health needs. The website is
+                  user-friendly, and the customer service is excellent.
+                </p>
+                <h3>Samip</h3>
+                <p>Graphics Designer</p>
+              </div>
+              <div class="user-img">
+                <img src="./img/Testimonials/samip.jpg" />
+              </div>
+            </div>
+            <div class="slide-col">
+              <div class="user-text">
+                <p>
+                  As a regular customer, I can confidently say PharmaConnect is
+                  reliable and trustworthy. The prescription upload feature is a
+                  game-changer, making it easy to order my medications with just
+                  a few clicks. Highly recommended!
+                </p>
+                <h3>Anish</h3>
+                <p>Web-Developer</p>
+              </div>
+              <div class="user-img">
+                <img src="./img/Testimonials/Anish.jpg" />
+              </div>
+            </div>
+            
+          </div>
+          </div>
+          
+         
+
+    
+
+    
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="Pclogo.jpg" alt="logo" />
+        <h4>Contact</h4>
+        <p><strong>Address: Bharatpur,Chitwan</strong></p>
+        <p><strong>Phone:056-527106</strong></p>
+        <p><strong>Hours: 6am to 6pm</strong></p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+    </footer> 
+    <script src="script.js"></script>
+  </body>
+</html>
